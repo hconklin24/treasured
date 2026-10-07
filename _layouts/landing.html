@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Treasured · The prayer journal that remembers</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="icon" href="{{ '/favicon.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/icon-180.png' | relative_url }}">
+  <meta name="theme-color" content="#a10b2b">
+  <meta property="og:title" content="Treasured: Prayer Journal">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:image" content="{{ '/assets/shots/1-notices.jpg' | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <style>
+    :root {
+      --carmine: #a10b2b; --pistachio: #bcd382; --olive: #2e3e00;
+      --bg: #fff8f7; --surface: #fcf1f0; --text: #1f1a1a; --muted: #524343; --line: #e5d3d2;
+      --link: #a10b2b;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #171212; --surface: #211b1b; --text: #ebe0df; --muted: #d7c1c1; --line: #3a3030; --link: #ffb3b4; }
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--bg); color: var(--text);
+           font: 18px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; overflow-x: hidden; }
+    a { color: var(--link); }
+    .wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+    .serif { font-family: Georgia, "Times New Roman", serif; }
+
+    /* Hero */
+    .hero { background: var(--carmine); color: #fff; }
+    .hero nav { display: flex; align-items: center; justify-content: space-between; padding: 20px 0; }
+    .hero nav .brand { display: flex; align-items: center; gap: 10px; color: #fff; text-decoration: none; font-weight: 700; font-size: 20px; }
+    .hero nav .brand img { width: 34px; height: 34px; border-radius: 8px; }
+    .hero nav .links a { color: #fff; opacity: .85; text-decoration: none; margin-left: 18px; font-size: 15px; }
+    .hero-grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 40px; align-items: center; padding: 40px 0 0; }
+    .hero h1 { font-size: clamp(40px, 6vw, 64px); line-height: 1.05; margin: 0 0 18px; }
+    .hero p.lede { font-size: 21px; opacity: .95; margin: 0 0 28px; max-width: 34ch; }
+    .badge { display: inline-flex; align-items: center; gap: 10px; background: #fff; color: var(--carmine);
+             padding: 14px 22px; border-radius: 999px; font-weight: 700; text-decoration: none; }
+    .badge small { display: block; font-weight: 500; font-size: 12px; color: var(--muted); }
+    .hero .note { margin-top: 14px; font-size: 14px; color: var(--pistachio); }
+    .phone { width: 100%; max-width: 320px; margin: 0 auto; display: block; border-radius: 44px;
+             border: 10px solid #1f1a1a; box-shadow: 0 30px 60px rgba(0,0,0,.35); background: #1f1a1a; }
+    .hero .phone { margin-bottom: -80px; position: relative; }
+
+    /* Verse band */
+    .verse { background: var(--pistachio); color: var(--olive); text-align: center; padding: 120px 16px 48px; }
+    .verse blockquote { margin: 0 auto; max-width: 720px; font-size: clamp(22px, 3vw, 28px); line-height: 1.4; }
+    .verse cite { display: block; margin-top: 10px; font-style: normal; font-size: 15px; }
+
+    /* Feature rows */
+    section.feature { padding: 72px 0; border-bottom: 1px solid var(--line); }
+    .feature-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center; }
+    .feature:nth-of-type(even) .feature-grid .copy { order: 2; }
+    .eyebrow { color: var(--link); font-weight: 700; text-transform: uppercase; letter-spacing: .08em; font-size: 13px; }
+    .feature h2 { font-size: clamp(30px, 4vw, 40px); line-height: 1.15; margin: 8px 0 14px; }
+    .feature p { color: var(--muted); margin: 0; max-width: 42ch; }
+
+    /* Privacy + promise */
+    .private { background: var(--carmine); color: #fff; padding: 72px 0; }
+    .private h2 { font-size: clamp(30px, 4vw, 40px); margin: 0 0 28px; }
+    .ticks { display: grid; grid-template-columns: repeat(2, 1fr); gap: 22px 40px; list-style: none; padding: 0; margin: 0; }
+    .ticks li { padding-left: 40px; position: relative; }
+    .ticks li::before { content: "✓"; position: absolute; left: 0; top: 0; width: 28px; height: 28px; border-radius: 50%;
+                        background: var(--pistachio); color: var(--carmine); font-weight: 700; display: grid; place-items: center; font-size: 15px; }
+    .ticks strong { display: block; }
+    .ticks span { color: var(--pistachio); font-size: 16px; }
+    .promise { padding: 72px 0; text-align: center; }
+    .promise h2 { font-size: clamp(28px, 4vw, 36px); margin: 0 0 14px; }
+    .promise p { color: var(--muted); max-width: 60ch; margin: 0 auto 10px; }
+    .pricing { padding: 0 0 72px; text-align: center; }
+    .pricing .card { display: inline-block; background: var(--surface); border: 1px solid var(--line); border-radius: 24px; padding: 32px 40px; }
+    .pricing .price { font-size: 40px; font-weight: 700; }
+    .pricing .price small { font-size: 18px; color: var(--muted); font-weight: 500; }
+    footer { border-top: 1px solid var(--line); padding: 24px 0 40px; color: var(--muted); font-size: 14px; }
+    footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+
+    @media (max-width: 760px) {
+      .hero-grid, .feature-grid { grid-template-columns: 1fr; gap: 28px; }
+      .feature:nth-of-type(even) .feature-grid .copy { order: 0; }
+      .hero p.lede { max-width: none; }
+      .phone { max-width: 260px; }
+      .ticks { grid-template-columns: 1fr; }
+      .hero nav .links a:not(:last-child) { display: none; }
+    }
+  </style>
+</head>
+<body>
+{{ content }}
+</body>
+</html>

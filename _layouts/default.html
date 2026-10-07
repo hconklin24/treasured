@@ -4,7 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} · {% endif %}Treasured</title>
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="icon" href="{{ '/favicon.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/icon-180.png' | relative_url }}">
+  <meta name="theme-color" content="#a10b2b">
   <style>
     :root {
       /* Brand: Carmine #a10b2b, Pistachio #bcd382, Leaf #66ab56 — same tokens as the app. */
