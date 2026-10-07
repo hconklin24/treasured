@@ -1,0 +1,4 @@
+title: Treasured
+description: A private prayer journal that notices, connects, and remembers.
+markdown: kramdown
+exclude: [README.md]
