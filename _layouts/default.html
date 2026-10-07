@@ -7,12 +7,13 @@
   <meta name="description" content="{{ site.description }}">
   <style>
     :root {
-      --bg: #fbf9f6; --surface: #f5f3f1; --text: #1b1c1a; --muted: #434843;
-      --primary: #236b41; --gold: #755b00; --gold-bg: #ffe08e; --line: #c3c8c1;
+      /* Brand: Carmine #a10b2b, Pistachio #bcd382, Leaf #66ab56 — same tokens as the app. */
+      --bg: #fff8f7; --surface: #fcf1f0; --text: #1f1a1a; --muted: #524343;
+      --primary: #a10b2b; --accent-bg: #bcd382; --accent-text: #2e3e00; --line: #d7c1c1;
     }
     @media (prefers-color-scheme: dark) {
-      :root { --bg: #121411; --surface: #1b1c1a; --text: #e4e2e0; --muted: #c3c8c1;
-              --primary: #8ed6a3; --gold: #e8c349; --gold-bg: #584400; --line: #434843; }
+      :root { --bg: #171212; --surface: #1f1a1a; --text: #ebe0df; --muted: #d7c1c1;
+              --primary: #ffb3b4; --accent-bg: #445613; --accent-text: #e2f2b4; --line: #524343; }
     }
     * { box-sizing: border-box; }
     body { margin: 0; background: var(--bg); color: var(--text);
@@ -29,7 +30,7 @@
     em:first-of-type { color: var(--muted); }
     ul { padding-left: 22px; }
     li { margin: 6px 0; }
-    blockquote { margin: 24px 0; padding: 12px 16px; background: var(--gold-bg); color: var(--text);
+    blockquote { margin: 24px 0; padding: 12px 16px; background: var(--accent-bg); color: var(--accent-text);
                  border-radius: 12px; border: 0; }
     footer { border-top: 1px solid var(--line); padding-top: 16px; padding-bottom: 32px; color: var(--muted); font-size: 14px; }
   </style>
