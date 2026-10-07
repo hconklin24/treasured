@@ -38,4 +38,4 @@ We may update these terms. Continued use after an update means you accept the ne
 
 ## Contact
 
-Please [open an issue on GitHub](https://github.com/hconklin24/treasured/issues) (a dedicated support email is coming soon).
+Email [treasuredjournal@outlook.com](mailto:treasuredjournal@outlook.com).

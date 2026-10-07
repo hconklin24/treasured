@@ -54,4 +54,4 @@ If this policy changes, we will update the date above and describe the change in
 
 ## Contact
 
-Please [open an issue on GitHub](https://github.com/hconklin24/treasured/issues) (a dedicated support email is coming soon).
+Email [treasuredjournal@outlook.com](mailto:treasuredjournal@outlook.com).
