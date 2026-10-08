@@ -26,7 +26,7 @@ What you write is yours and stays on your device. You are responsible for keepin
 
 ## Scripture
 
-Scripture quotations are from the World English Bible, which is in the public domain.
+Scripture quotations are from the American Standard Version (1901), which is in the public domain.
 
 ## Disclaimer and limitation of liability
 

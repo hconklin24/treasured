@@ -21,7 +21,7 @@ We cannot see, read, recover, or access your journal.
 
 If you choose to, the app downloads an on-device language model file from Hugging Face (huggingface.co). This is a one-way download of the model itself; nothing you have written is sent. Hugging Face may receive standard request information (such as your IP address) as part of serving the download, under its own privacy policy.
 
-The Bible text (World English Bible, public domain) is included in the app and needs no download.
+The Bible text (American Standard Version, 1901, public domain) is included in the app and needs no download.
 
 ## Purchases
 
