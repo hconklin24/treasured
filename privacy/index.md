@@ -5,7 +5,7 @@ title: Privacy Policy
 
 # Privacy Policy
 
-*Last updated: October 6, 2026*
+*Last updated: October 9, 2026*
 
 Treasured ("the app") is a private journal and prayer app. It is designed so that what you write never leaves your device.
 
@@ -21,7 +21,7 @@ We cannot see, read, recover, or access your journal.
 
 If you choose to, the app downloads an on-device language model file from Hugging Face (huggingface.co). This is a one-way download of the model itself; nothing you have written is sent. Hugging Face may receive standard request information (such as your IP address) as part of serving the download, under its own privacy policy.
 
-The Bible text (American Standard Version, 1901, public domain) is included in the app and needs no download.
+The Bible text (American Standard Version, 1901, public domain) is included in the app and needs no download. If you choose another translation (Chinese, Spanish, French or Portuguese), the app downloads that Bible file from this website (hconklin24.github.io, hosted by GitHub). As with the model, this is a one-way download; nothing you have written is sent, and GitHub may receive standard request information (such as your IP address) under its own privacy policy.
 
 ## Purchases
 
