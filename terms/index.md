@@ -5,7 +5,7 @@ title: Terms of Use
 
 # Terms of Use
 
-*Last updated: October 9, 2026*
+*Last updated: October 11, 2026*
 
 By using Treasured ("the app") you agree to these terms. On iOS, Apple's Standard Licensed Application End User License Agreement (https://www.apple.com/legal/internet-services/itunes/dev/stdeula/) also applies.
 
@@ -28,7 +28,7 @@ What you write is yours and stays on your device. You are responsible for keepin
 
 Scripture quotations are from the Bible translation you choose in the app:
 
-- American Standard Version (1901), public domain (built in).
+- Berean Standard Bible, public domain (built in).
 - Chinese Union Version, simplified (和合本), public domain, via eBible.org.
 - Reina-Valera 1909, public domain, via eBible.org.
 - Louis Segond 1910, public domain, via eBible.org.
