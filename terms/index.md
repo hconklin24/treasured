@@ -11,10 +11,10 @@ By using Treasured ("the app") you agree to these terms. On iOS, Apple's Standar
 
 ## Subscription
 
-- Treasured Plus is an auto-renewing monthly subscription at the price shown in the app (US $3.99/month or local equivalent).
+- Treasured offers two auto-renewing subscriptions at the prices shown in the app: Treasured Journal Yearly (US $29.99/year or local equivalent) and Treasured Journal Subscription (US $3.99/month or local equivalent).
 - New subscribers may receive a free trial. If you don't cancel at least 24 hours before the trial ends, the subscription begins and you are charged.
-- Payment is charged to your Apple ID or Google Play account. The subscription renews automatically unless cancelled at least 24 hours before the end of the current period. You can manage or cancel it in your App Store or Google Play account settings.
-- **If your subscription ends, you keep access to everything you've written.** You can still read, search, export, and delete your journal and prayers, and read the Bible. Writing new entries and on-device analysis require an active subscription.
+- Payment is charged to your Apple ID or Google Play account. The subscription renews automatically unless cancelled at least 24 hours before the end of the current period (year or month). You can manage or cancel it in your App Store or Google Play account settings.
+- **Journaling and prayer are free.** Without a subscription you can write and edit entries, keep prayer requests and your list of people, read and search the Bible, and export or delete everything. The subscription adds noticing: on-device analysis that suggests possible prayer requests, people, themes, related Scripture, connections between entries, and reflections. If your subscription ends, results already shown stay visible; new entries aren't analyzed.
 
 ## What the app is — and isn't
 
